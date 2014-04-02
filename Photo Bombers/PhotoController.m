@@ -9,6 +9,7 @@
 #import "PhotoController.h"
 #import <SAMCache/SAMCache.h>
 
+
 @implementation PhotoController
 
 + (void)imageForPhoto:(NSDictionary *)photo size:(NSString *)size completion:(void (^)(UIImage *image))completion; {
@@ -35,6 +36,7 @@
         
         dispatch_async(dispatch_get_main_queue(), ^{
             completion(image);
+            NSLog(@"%@",response);
         });
     }];
     [task resume];

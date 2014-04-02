@@ -15,12 +15,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    #warning add your KEY from instagram
     SimpleAuth.configuration[@"instagram"] = @{
-       @"client_id" : @"ADD YOUR KEY HERE",
+       @"client_id" : @"Add your KEY",
        SimpleAuthRedirectURIKey : @"photobombers://auth/instagram"
        };
-
+    
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     

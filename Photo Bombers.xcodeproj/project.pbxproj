@@ -23,6 +23,7 @@
 		21ADD1D718E0FA0100EA78D9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 21ADD1D518E0FA0100EA78D9 /* InfoPlist.strings */; };
 		21ADD1D918E0FA0100EA78D9 /* Photo_BombersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 21ADD1D818E0FA0100EA78D9 /* Photo_BombersTests.m */; };
 		21ADD1E418E0FA5100EA78D9 /* PhotosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21ADD1E318E0FA5100EA78D9 /* PhotosViewController.m */; };
+		21D11AD918EC25BB00A6BC6A /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21D11AD818EC25BB00A6BC6A /* DetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,8 @@
 		21ADD1D818E0FA0100EA78D9 /* Photo_BombersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Photo_BombersTests.m; sourceTree = "<group>"; };
 		21ADD1E218E0FA5100EA78D9 /* PhotosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotosViewController.h; sourceTree = "<group>"; };
 		21ADD1E318E0FA5100EA78D9 /* PhotosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotosViewController.m; sourceTree = "<group>"; };
+		21D11AD718EC25BB00A6BC6A /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		21D11AD818EC25BB00A6BC6A /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		F6FD5B21927D4DFEA9482183 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -93,6 +96,7 @@
 			children = (
 				213BE2FB18E4DC49006AD513 /* Podfile */,
 				21ADD1B918E0FA0100EA78D9 /* Photo Bombers */,
+				21ADD1BA18E0FA0100EA78D9 /* Supporting Files */,
 				21ADD1D218E0FA0100EA78D9 /* Photo BombersTests */,
 				21ADD1B218E0FA0100EA78D9 /* Frameworks */,
 				21ADD1B118E0FA0100EA78D9 /* Products */,
@@ -127,13 +131,14 @@
 				21ADD1C218E0FA0100EA78D9 /* AppDelegate.h */,
 				21ADD1C318E0FA0100EA78D9 /* AppDelegate.m */,
 				21ADD1C518E0FA0100EA78D9 /* Images.xcassets */,
-				21ADD1BA18E0FA0100EA78D9 /* Supporting Files */,
 				21ADD1E218E0FA5100EA78D9 /* PhotosViewController.h */,
 				21ADD1E318E0FA5100EA78D9 /* PhotosViewController.m */,
 				21486C2E18E381280017D4EB /* PhotoCell.h */,
 				21486C2F18E381280017D4EB /* PhotoCell.m */,
 				2151582118E89AE200EC0799 /* PhotoController.h */,
 				2151582218E89AE200EC0799 /* PhotoController.m */,
+				21D11AD718EC25BB00A6BC6A /* DetailViewController.h */,
+				21D11AD818EC25BB00A6BC6A /* DetailViewController.m */,
 			);
 			path = "Photo Bombers";
 			sourceTree = "<group>";
@@ -147,6 +152,7 @@
 				21ADD1C118E0FA0100EA78D9 /* Photo Bombers-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			path = "Photo Bombers";
 			sourceTree = "<group>";
 		};
 		21ADD1D218E0FA0100EA78D9 /* Photo BombersTests */ = {
@@ -302,6 +308,7 @@
 				21ADD1E418E0FA5100EA78D9 /* PhotosViewController.m in Sources */,
 				21ADD1C018E0FA0100EA78D9 /* main.m in Sources */,
 				2151582318E89AE200EC0799 /* PhotoController.m in Sources */,
+				21D11AD918EC25BB00A6BC6A /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

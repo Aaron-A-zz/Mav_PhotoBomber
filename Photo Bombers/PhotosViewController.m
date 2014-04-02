@@ -9,6 +9,7 @@
 #import "PhotosViewController.h"
 #import "PhotoCell.h"
 #import <SimpleAuth/SimpleAuth.h>
+#import "DetailViewController.h"
 
 @interface PhotosViewController ()
 @property (nonatomic) NSString *accessToken;
@@ -96,6 +97,16 @@
 -(UIStatusBarStyle)preferredStatusBarStyle {
     return UIStatusBarStyleLightContent;
 
+}
+
+
+-(void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
+    
+    NSString *photo = self.photos[indexPath.row];
+    DetailViewController *viewController = [[DetailViewController alloc]init];
+    viewController.photo = photo;
+    
+    [self presentViewController:viewController animated:YES completion:nil];
 }
 
 

@@ -5,7 +5,7 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>13156F4E-A383-4A7A-9EA1-8430E7770436</string>
+	<string>F379B779-DE4E-4000-BE54-E0E92AE7B055</string>
 	<key>IDESourceControlProjectName</key>
 	<string>Photo Bombers</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
@@ -14,11 +14,11 @@
 		<string>https://github.com/Mav3r1ck/Mav_PhotoBomber.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Photo Bombers.xcworkspace</string>
+	<string>Photo Bombers.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>CD190C0F-C413-4BF5-849C-FF2636A14876</key>
-		<string>..</string>
+		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/Mav3r1ck/Mav_PhotoBomber.git</string>
