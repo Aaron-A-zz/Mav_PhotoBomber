@@ -10,8 +10,10 @@
 #import "PhotoCell.h"
 #import <SimpleAuth/SimpleAuth.h>
 #import "DetailViewController.h"
+#import "PresentDetailTransition.h"
+#import "DismissDetailTransmission.h"
 
-@interface PhotosViewController ()
+@interface PhotosViewController ()<UIViewControllerTransitioningDelegate>
 @property (nonatomic) NSString *accessToken;
 @property (nonatomic) NSArray *photos;
 
@@ -33,7 +35,7 @@
 -(void)viewDidLoad {
     [super viewDidLoad];
     
-    self.title = @"#Photo Bombers";
+    self.title = @"#PhotoBombers";
     [self.collectionView registerClass:[PhotoCell class] forCellWithReuseIdentifier:@"photo"];
     self.collectionView.backgroundColor = [UIColor whiteColor];
     
@@ -102,11 +104,21 @@
 
 -(void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
     
-    NSString *photo = self.photos[indexPath.row];
+    NSDictionary *photo = self.photos[indexPath.row];
     DetailViewController *viewController = [[DetailViewController alloc]init];
+    viewController.modalPresentationStyle = UIModalPresentationCustom;
+    viewController.transitioningDelegate = self;
     viewController.photo = photo;
     
     [self presentViewController:viewController animated:YES completion:nil];
+}
+
+- (id<UIViewControllerAnimatedTransitioning>)animationControllerForPresentedController:(UIViewController *)presented presentingController:(UIViewController *)presenting sourceController:(UIViewController *)source {
+    return [[PresentDetailTransition alloc] init];
+}
+
+- (id<UIViewControllerAnimatedTransitioning>)animationControllerForDismissedController:(UIViewController *)dismissed {
+    return [[DismissDetailTransmission alloc] init];
 }
 
 

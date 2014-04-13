@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		115B724CB83A45E685C6DDDC /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AC6BEB0F7D54BB6BD5FCB65 /* libPods.a */; };
 		21486C3018E381280017D4EB /* PhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 21486C2F18E381280017D4EB /* PhotoCell.m */; };
+		214F6DEA18F9DE8500A8BB7F /* DismissDetailTransmission.m in Sources */ = {isa = PBXBuildFile; fileRef = 214F6DE918F9DE8500A8BB7F /* DismissDetailTransmission.m */; };
 		2151582318E89AE200EC0799 /* PhotoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2151582218E89AE200EC0799 /* PhotoController.m */; };
 		21ADD1B418E0FA0100EA78D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21ADD1B318E0FA0100EA78D9 /* Foundation.framework */; };
 		21ADD1B618E0FA0100EA78D9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21ADD1B518E0FA0100EA78D9 /* CoreGraphics.framework */; };
@@ -23,6 +24,7 @@
 		21ADD1D718E0FA0100EA78D9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 21ADD1D518E0FA0100EA78D9 /* InfoPlist.strings */; };
 		21ADD1D918E0FA0100EA78D9 /* Photo_BombersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 21ADD1D818E0FA0100EA78D9 /* Photo_BombersTests.m */; };
 		21ADD1E418E0FA5100EA78D9 /* PhotosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21ADD1E318E0FA5100EA78D9 /* PhotosViewController.m */; };
+		21BDDBB818EEE22200E22385 /* PresentDetailTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 21BDDBB718EEE22200E22385 /* PresentDetailTransition.m */; };
 		21D11AD918EC25BB00A6BC6A /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21D11AD818EC25BB00A6BC6A /* DetailViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +43,8 @@
 		213BE2FB18E4DC49006AD513 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		21486C2E18E381280017D4EB /* PhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoCell.h; sourceTree = "<group>"; };
 		21486C2F18E381280017D4EB /* PhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoCell.m; sourceTree = "<group>"; };
+		214F6DE818F9DE8500A8BB7F /* DismissDetailTransmission.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DismissDetailTransmission.h; sourceTree = "<group>"; };
+		214F6DE918F9DE8500A8BB7F /* DismissDetailTransmission.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DismissDetailTransmission.m; sourceTree = "<group>"; };
 		2151582118E89AE200EC0799 /* PhotoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoController.h; sourceTree = "<group>"; };
 		2151582218E89AE200EC0799 /* PhotoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoController.m; sourceTree = "<group>"; };
 		21ADD1B018E0FA0100EA78D9 /* Photo Bombers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Photo Bombers.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -61,6 +65,8 @@
 		21ADD1D818E0FA0100EA78D9 /* Photo_BombersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Photo_BombersTests.m; sourceTree = "<group>"; };
 		21ADD1E218E0FA5100EA78D9 /* PhotosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotosViewController.h; sourceTree = "<group>"; };
 		21ADD1E318E0FA5100EA78D9 /* PhotosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotosViewController.m; sourceTree = "<group>"; };
+		21BDDBB618EEE22200E22385 /* PresentDetailTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresentDetailTransition.h; sourceTree = "<group>"; };
+		21BDDBB718EEE22200E22385 /* PresentDetailTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresentDetailTransition.m; sourceTree = "<group>"; };
 		21D11AD718EC25BB00A6BC6A /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		21D11AD818EC25BB00A6BC6A /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		F6FD5B21927D4DFEA9482183 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
@@ -139,6 +145,10 @@
 				2151582218E89AE200EC0799 /* PhotoController.m */,
 				21D11AD718EC25BB00A6BC6A /* DetailViewController.h */,
 				21D11AD818EC25BB00A6BC6A /* DetailViewController.m */,
+				21BDDBB618EEE22200E22385 /* PresentDetailTransition.h */,
+				21BDDBB718EEE22200E22385 /* PresentDetailTransition.m */,
+				214F6DE818F9DE8500A8BB7F /* DismissDetailTransmission.h */,
+				214F6DE918F9DE8500A8BB7F /* DismissDetailTransmission.m */,
 			);
 			path = "Photo Bombers";
 			sourceTree = "<group>";
@@ -307,8 +317,10 @@
 				21ADD1C418E0FA0100EA78D9 /* AppDelegate.m in Sources */,
 				21ADD1E418E0FA5100EA78D9 /* PhotosViewController.m in Sources */,
 				21ADD1C018E0FA0100EA78D9 /* main.m in Sources */,
+				21BDDBB818EEE22200E22385 /* PresentDetailTransition.m in Sources */,
 				2151582318E89AE200EC0799 /* PhotoController.m in Sources */,
 				21D11AD918EC25BB00A6BC6A /* DetailViewController.m in Sources */,
+				214F6DEA18F9DE8500A8BB7F /* DismissDetailTransmission.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +442,7 @@
 				GCC_PREFIX_HEADER = "Photo Bombers/Photo Bombers-Prefix.pch";
 				INFOPLIST_FILE = "Photo Bombers/Photo Bombers-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -444,6 +457,7 @@
 				GCC_PREFIX_HEADER = "Photo Bombers/Photo Bombers-Prefix.pch";
 				INFOPLIST_FILE = "Photo Bombers/Photo Bombers-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

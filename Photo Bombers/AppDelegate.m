@@ -16,7 +16,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     SimpleAuth.configuration[@"instagram"] = @{
-       @"client_id" : @"Add your KEY",
+       @"client_id" : @"YOUR CLIENT ID",
        SimpleAuthRedirectURIKey : @"photobombers://auth/instagram"
        };
     
@@ -29,13 +29,11 @@
     
     UINavigationBar *navigationBar = navigationController.navigationBar;
     navigationBar.barTintColor =[UIColor colorWithRed:242.0 / 255.0 green:122.0 / 255.0 blue:87.0 / 255.0 alpha:1.0];
-    navigationBar.barStyle = UIBarStyleDefault;
+    navigationBar.barStyle = UIBarStyleBlackOpaque;
     
     
     self.window.rootViewController = navigationController;
-    
-    
-    self.window.backgroundColor = [UIColor colorWithRed:242.0 / 255.0 green:122.0 / 255.0 blue:87.0 / 255.0 alpha:1.0];
+    self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
 }

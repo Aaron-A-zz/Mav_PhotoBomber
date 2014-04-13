@@ -5,19 +5,19 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>13156F4E-A383-4A7A-9EA1-8430E7770436</string>
+	<string>7C2C0665-9D6E-46B3-887C-84FBA8F4354E</string>
 	<key>IDESourceControlProjectName</key>
 	<string>Photo Bombers</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>CD190C0F-C413-4BF5-849C-FF2636A14876</key>
+		<key>34A5FFEA-CB50-4529-AE65-DB30EFD9A847</key>
 		<string>https://github.com/Mav3r1ck/Mav_PhotoBomber.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>Photo Bombers.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>CD190C0F-C413-4BF5-849C-FF2636A14876</key>
+		<key>34A5FFEA-CB50-4529-AE65-DB30EFD9A847</key>
 		<string>..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
@@ -25,14 +25,14 @@
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>CD190C0F-C413-4BF5-849C-FF2636A14876</string>
+	<string>34A5FFEA-CB50-4529-AE65-DB30EFD9A847</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>CD190C0F-C413-4BF5-849C-FF2636A14876</string>
+			<string>34A5FFEA-CB50-4529-AE65-DB30EFD9A847</string>
 			<key>IDESourceControlWCCName</key>
 			<string>Mav_PhotoBomber</string>
 		</dict>
